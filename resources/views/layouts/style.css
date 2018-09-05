@@ -1,0 +1,25 @@
+/* デフォルトのスタイル */
+
+
+@media (min-width: 500px) {
+    /* ウインドウ幅500px以上の時に適用されるスタイル */
+    .row {
+        background-color: #f00;
+        
+    }
+}
+
+@media (min-width: 750px) {
+    /* ウインドウ幅750px以上の時に適用されるスタイル */
+    .row {
+        background-color: #0f0;
+    }
+}
+
+@media (min-width: 1000px) {
+    /* ウインドウ幅1000px以上の時に適用されるスタイル */
+    .row {
+        background-color: #00f;
+    }
+}
+
